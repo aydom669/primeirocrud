@@ -55,7 +55,7 @@ app.use(csrfMiddleware);
 app.use(routes);
 
 app.on('pronto', () => {
-    app.listen(3000, () => {
-        console.log('Acessar http://localhost:3000');
+    app.listen(3333, () => {
+        console.log('Acessar http://localhost:3333');
     });
 });
